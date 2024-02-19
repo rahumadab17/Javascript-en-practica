@@ -1,0 +1,74 @@
+body {
+    margin-top: 20px;
+    margin-left: 100px;
+    padding: 0;
+}
+
+section {
+    display: flex;
+}
+
+.col1 {
+    display: inline;
+}
+
+.col2 {
+    display: inline;
+}
+
+
+#cuadradoRojo{
+    height: 80px;
+    width: 80px;
+    background-color: #f85d5d;
+    border: 2px grey solid;
+    display: block;
+}
+
+#cuadradoNaranjo{
+    height: 80px;
+    width: 80px;
+    background-color: #ff9811;
+    border: 2px grey solid;
+    display: block;
+}
+
+#cuadradoAmarillo{
+    height: 80px;
+    width: 80px;
+    background-color: #f9fc36;
+    border: 2px grey solid;
+    display: block;
+}
+
+#cuadradoVerde{
+    height: 80px;
+    width: 80px;
+    background-color: #04ff0c;
+    border: 2px grey solid;
+    display: block;
+}
+
+#cuadradoCeleste{
+    height: 80px;
+    width: 80px;
+    background-color: #16fffb;
+    border: 2px grey solid;
+    display: block;
+}
+
+#cuadradoRosado{
+    height: 80px;
+    width: 80px;
+    background-color: #ff02e6;
+    border: 2px grey solid;
+    display: block;
+}
+
+#cuadradoBlanco{
+    height: 477px;
+    width: 400px;
+    background-color: #ffffff;
+    border: 2px grey solid;
+    display: block;
+}

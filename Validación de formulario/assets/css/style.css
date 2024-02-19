@@ -1,0 +1,43 @@
+body {
+    margin-left: 100px;
+    margin-top: 50px;
+    padding: 0;
+}
+
+.resultado {
+    color: rgb(0, 202, 0);
+    font-style: italic;
+    font-weight: bold;
+}
+
+.textNombre {
+    width: 455px;
+}
+
+.textAsunto {
+    width: 455px;
+}
+
+.errorNombre{
+    color: red;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.errorAsunto{
+    color: red;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.errorMensaje{
+    color: red;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.errorResultado{
+    color: red;
+    font-style: italic;
+    font-weight: bold;
+}

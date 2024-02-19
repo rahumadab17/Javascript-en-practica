@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="assets/css/style.css">
+	<title>Validación de Formulario</title>
+</head>
+<body>
+      <h1>Escríbenos!!!</h1>
+      <form action="#" name="form" id="form">
+       	<div>
+             <p class="resultado"></p>
+             <b><label for="">Nombre Completo</label></b><br>
+             <input type="text" class="textNombre"><br><br>
+             <span class="errorNombre"></span>
+       	</div><br>
+       	<div>
+             <b><label for="">Asunto</label></b><br>
+             <input type="text" class="textAsunto"><br><br>
+             <span class="errorAsunto"></span>
+       	</div>
+         	<div><br>
+             <b><label for="">Mensaje</label></b><br>
+             <textarea id="textMensaje" class="textMensaje" rows="2" cols="60"></textarea><br><br>
+             <span class="errorMensaje"></span>
+       	</div><br>
+       	<button type="submit">Enviar Mensaje</button>
+             <p class="errorResultado"></p>     
+      </form> 
+
+
+   <script src="assets/js/script.js"></script>
+</body>
+</html>
