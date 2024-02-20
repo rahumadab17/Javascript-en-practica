@@ -27,21 +27,21 @@ function exito (){
 
 function validar(nombre, asunto, mensaje){
     let pasamosLaValidacion = true;
-    let validacionNombre = /[a-zA-Z]/gim;
+    let validacionNombre = /^[a-zA-Z]+$/;
 
     if (validacionNombre.test(nombre) == false){
         document.querySelector(".errorNombre").innerHTML="El nombre es requerido."
         pasamosLaValidacion = false;
     };
 
-    let validacionAsunto = /[a-zA-Z]/gim;
+    let validacionAsunto = /^[a-zA-Z]+$/;
 
     if (validacionAsunto.test(asunto) == false){
         document.querySelector(".errorAsunto").innerHTML="El asunto es requerido"
         pasamosLaValidacion = false;
     };
 
-    let validacionMensaje = /[a-zA-Z]/gim;
+    let validacionMensaje = /^[a-zA-Z]+$/;
 
     if (validacionMensaje.test(mensaje) == false){
         document.querySelector(".errorMensaje").innerHTML="El mensaje es requerido"
